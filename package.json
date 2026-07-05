@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "node unpack.mjs && vite build && mkdir -p dist/assets && cp robots.txt sitemap.xml dist/ && cp assets/og-vcuk.svg dist/assets/og-vcuk.svg"
+  },
+  "dependencies": {
+    "vite": "^7.0.0"
+  },
+  "devDependencies": {}
+}
